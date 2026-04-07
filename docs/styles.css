@@ -250,10 +250,13 @@ footer {
 }
 
 .project-card {
+  display: block;
   background: rgba(255,255,255,0.02);
   border: 1px solid rgba(255,255,255,0.06);
   padding: 2rem;
   transition: background 0.3s, border-color 0.3s, transform 0.3s;
+  text-decoration: none;
+  color: inherit;
 }
 
 .project-card:hover {
